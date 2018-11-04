@@ -1,11 +1,23 @@
 
-.body {
+body {
        text-align: left;
-       font-size: 12pt;
+	font-family: Helvetica,sans-serif;
+       font-size: 11pt;
        color: #336699;
-       margin-bottom: 5px;
-    }
-   
+       margin-bottom: 2;
+	line-height: 1.8;    
+}
+text {
+
+	
+
+}
+
+h3 {
+
+
+}   
+
 
 #outer
 {
@@ -27,4 +39,5 @@ position: relative;
 ul {
 	list-style-type: none;
 	align: center;
+
 }
