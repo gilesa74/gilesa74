@@ -1,33 +1,22 @@
 
-h1  {
-       text-align: center;
+.body {
+       text-align: left;
        font-size: 12pt;
-       color: #000099;
+       color: #336699;
        margin-bottom: 5px;
-       text-decoration: underline;
     }
-    
-    table {
-       margin: 5px;
-       width: 290px;
-    }
-    
-    th {
-       padding: 3px;
-    }
-    
-    td {
-       padding-left: 8px;
-       padding-right: 8px;
-       border: 1px solid #990000;
-       background-color: #ffffcc;
-    }
-    
-    #trHeader {
-       text-decoration: underline;
-       color: #990000;
-    }
-    
-    .centerCell {
-       text-align: center;
-    }
+   
+
+#outer
+{
+	position: relative;
+}
+#inner{
+	margin: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
