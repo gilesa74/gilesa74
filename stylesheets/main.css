@@ -9,10 +9,13 @@
 
 #outer
 {
-	position: relative;
+width: 100%;
+align: centre;
+position: relative;
 }
 #inner{
-	margin: auto;
+	width: 50%;	
+	margin: 20%;
 	position: absolute;
 	left: 0;
 	right: 0;
