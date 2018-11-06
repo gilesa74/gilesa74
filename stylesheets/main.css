@@ -17,6 +17,9 @@ h3 {
 	color: #009FDF;
 }   
 
+.bg {
+    background: url('bg.jpg') no-repeat center cover;
+}
 
 #outer
 {
