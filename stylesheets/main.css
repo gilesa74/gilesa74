@@ -17,8 +17,23 @@ h3 {
 	color: #009FDF;
 }   
 
-.bg {
-    background: url('bg.jpg') no-repeat center cover;
+body {
+  background-image: url('images/bg.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
+span {
+  color: tomato;
+  font-weight: bold;
+  font-size: 2em;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
 }
 
 #outer
