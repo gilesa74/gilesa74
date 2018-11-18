@@ -5,7 +5,7 @@ body {
        size: 10pt;
 }
 
-.blurb {
+#blurb {
 float: centre;
 align: centre;
 }
