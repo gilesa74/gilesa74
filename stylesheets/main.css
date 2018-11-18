@@ -1,21 +1,15 @@
 
 body {
        text-align: left;
-	font-family: Helvetica,sans-serif;
+	font-family: courier,sans-serif;
        size: 10pt;
-       color: #262626;
-}
-ul {
-	margin-top: 4;
-
 }
 
 h3 {
 	margin-bottom: 4;
 	size: 22;
-	font-weight: bold;
-	color: #009FDF;
-}   
+	font-family: courier, sans-serif;
+	color: #595179;}   
 
 body, html{
 	height: 100%;
@@ -29,32 +23,10 @@ body, html{
   background-color: #464646;
 }
 
-
-#outer
-{
-width: 100%;
-align: centre;
-position: relative;
-}
-#inner{
-	width: 50%;	
-	margin: 20%;
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;
-}
-
 a[href^="mailto:"]
 {
-	font-family:  sans-serif;
-	color:	#009FDF;
+	font-family:  courier, sans-serif;
+	color:	#595179;
 
 }
 
-ul {
-	list-style-type: none;
-	align: center;
-
-}
