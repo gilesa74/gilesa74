@@ -6,12 +6,12 @@ body {
 }
 
 #blurb {
-float: centre;
-align: centre;
+margin-right: auto;
+margin-left: auto;
 }
 h2 {
 	margin-bottom: 4;
-	size: 22;
+	size: 20;
 	font-family: courier, sans-serif;
 	color: #595179;}   
 
