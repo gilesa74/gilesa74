@@ -5,7 +5,11 @@ body {
        size: 10pt;
 }
 
-h3 {
+.blurb {
+float: centre;
+align: centre;
+}
+h2 {
 	margin-bottom: 4;
 	size: 22;
 	font-family: courier, sans-serif;
@@ -13,14 +17,6 @@ h3 {
 
 body, html{
 	height: 100%;
-}
-.bg {
-  background-image: url("https://github.com/gilesa74/gilesa74/blob/master/images/bg.jpg");  
-  background-position: center ;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: #464646;
 }
 
 a[href^="mailto:"]
