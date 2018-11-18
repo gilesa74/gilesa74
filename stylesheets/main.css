@@ -21,9 +21,10 @@ body, html{
 	height: 100%;
 }
 .bg {
-  background-image: url("../images/bg.jpg");
+  background-image: url("gilesa74/images/bg.jpg");  
   background-position: center ;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   background-color: #464646;
 }
