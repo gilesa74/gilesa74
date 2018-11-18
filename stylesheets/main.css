@@ -9,8 +9,9 @@ body {
 margin-left: 40%;
 }
 h2 {
+	margin-top: 15em;
 	margin-bottom: 4;
-	font size: 4em;
+	font-size: 3em;
 	font-family: courier, sans-serif;
 	color: #595179;}   
 
