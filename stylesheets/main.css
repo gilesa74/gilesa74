@@ -18,14 +18,14 @@ body {
 }
 
 .side-margin-left {
-	width: 80px;
+	width: 200px;
 	font-family: 'Outfit', sans-serif;
 	font-weight: 'ExtraBold';
 	font-size: 4em;
 }
 
 .site-body {
-	width: 760px;
+	width: 560px;
 	font-family: 'Zen Antique';
 	font-size: 2em;
 }
