@@ -5,15 +5,26 @@ body {
        size: 10pt;
 }
 
+.flex-container {
+	display: flex;
+	background-color: pink;
+}
 
-#side-margin-left {
+.flex-container > div {
+	background-color: white;
+	margin:10px;
+	padding: 20px;
+	font-size: 30px;
+}
+
+.side-margin-left {
 	width: 80px;
 	font-family: 'Outfit', sans-serif;
 	font-weight: 'ExtraBold';
 	font-size: 4em;
 }
 
-#site-body {
+.site-body {
 	width: 760px;
 	font-family: 'Zen Antique';
 	font-size: 2em;
