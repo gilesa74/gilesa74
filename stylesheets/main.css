@@ -7,44 +7,75 @@ body {
 
 .flex-container {
 	display: flex;
-	background-color: pink;
+	background-color: white;
 }
 
 .flex-container > div {
 	background-color: white;
 	margin:10px;
 	padding: 20px;
-	font-size: 30px;
+	font-size: 1em;
 }
 
-.side-margin-left {
-	width: 200px;
-	font-family: 'Outfit', sans-serif;
-	font-weight: 'ExtraBold';
-	font-size: 4em;
+.container-left {
+	margin:  24px 0 24px 0;
+	width: 700px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 'light';
+	font-size: 3em;
 }
 
-.site-body {
-	width: 560px;
-	font-family: 'Zen Antique';
-	font-size: 2em;
+.container-right {
+
+	width: 160px;
+	font-family: 'Zen Antique', sans-serif;
+	font-size: 5px;
 }
 
-#blurb {
-margin-left: 40%;
+.grid-container {
+	
+	color:	#595179;
+
 }
+
+img {
+	max-width: 300px;
+	max-height: 300px;
+}
+.face {
+	margin: 24px 0 24px 0;
+	border-radius: 150px;
+		box-shadow: 5px 5px 5px #ccc;
+}
+
 h1 {
-
-	font-family: 'Zen Antique';
-
+	font-family:'Roboto', sans-serif;
+	font-size:5em;
+	font-weight: bold;
 }
 
 h2 {
-	margin-top: 6em;
-	margin-bottom: 4;
 	font-size: 2em;
-	font-family: courier, sans-serif;
+	font-family: 'Outfit', sans-serif;
 	color: #595179;}   
+
+.blurb {
+	margin: 24px 0 0 0;
+	font-size: 15px;
+	text-align: left;
+}
+
+.blurb-para {
+	margin: 16px 0 0 0;
+	font-size: 20px;
+}
+
+.ga-links {
+	margin: 536px 0 0 0;
+	font-family:  'Zen Antique', sans-serif;
+	text-align: right;
+	text-size: 10px;
+}
 
 body, html{
 	height: 100%;
@@ -52,8 +83,7 @@ body, html{
 
 a[href^="mailto:"]
 {
-	font-family:  courier, sans-serif;
+	font-family:  'Zen Antique', sans-serif;
 	color:	#595179;
-
 }
 
