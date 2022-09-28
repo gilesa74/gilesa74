@@ -5,6 +5,10 @@ body {
        size: 10pt;
 }
 
+.container {
+	margin: 24px 0 12px 0;
+	padding: 30px;
+}
 .flex-container {
 	display: flex;
 	background-color: white;
@@ -12,15 +16,14 @@ body {
 
 .flex-container > div {
 	background-color: white;
-	margin:10px;
-	padding: 20px;
 	font-size: 1em;
 }
 
 .container-left {
-	margin:  24px 0 24px 0;
+	margin:  12px 0 24px 0;
+	padding: 20px;
 	width: 700px;
-	font-family: 'Nunito Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 'light';
 	font-size: 3em;
 }
@@ -34,7 +37,7 @@ body {
 
 .grid-container {
 	
-	color:	#595179;
+	
 
 }
 
@@ -49,25 +52,29 @@ img {
 }
 
 h1 {
-	font-family:'Roboto', sans-serif;
-	font-size:5em;
+	font-family:'Ramaraja', serif;
+	font-size:7em;
 	font-weight: bold;
 }
 
 h2 {
 	font-size: 2em;
-	font-family: 'Outfit', sans-serif;
-	color: #595179;}   
+	font-family: 'Ramaraja', serif;
+}   
 
 .blurb {
-	margin: 24px 0 0 0;
+	margin: 12px 0 0 0;
 	font-size: 15px;
 	text-align: left;
 }
 
 .blurb-para {
-	margin: 16px 0 0 0;
+	margin: 12px 0 0 0;
 	font-size: 20px;
+}
+
+.para-big{
+	font-size: 36px;
 }
 
 .ga-links {
