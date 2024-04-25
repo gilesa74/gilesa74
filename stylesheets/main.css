@@ -16,7 +16,7 @@ body {
 }
 
 .container-right {
-	
+	padding-top: 20px;
 	flex-direction: column;
 	width: 160px;
 	font-family: 'Zen Antique', sans-serif;
@@ -46,7 +46,6 @@ body {
 }
 .grid-container {
 	
-	
 
 }
 
@@ -55,6 +54,7 @@ img {
 	max-height: 300px;
 }
 .face {
+	paddingg-left: 20px;
 	margin: 24px 0 12px 0;
 	border-radius: 150px;
 		box-shadow: 5px 5px 5px #ccc;
